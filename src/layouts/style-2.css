@@ -1,0 +1,36 @@
+body {
+    background-color:#fafafa;
+    background-attachment:fixed;
+    background-position:center center;
+    background-image:url('http://demo.spyropress.com/themeforest/picard/wp-content/uploads/2017/08/bg.png');
+}
+.picard-navigation .main-navigation .menu-main-menu {
+    background-color:#ffffff;
+}
+#cshero-header-navigation .main-navigation .menu-main-menu > li > a {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#cshero-header-navigation .main-navigation .menu-main-menu > li > a {
+    padding-right:30px;
+    padding-left:30px;
+}
+#cshero-header-navigation .main-navigation ul.nav-menu > li > a {
+    font-family:Lato;
+    line-height:18px;
+    font-weight:700;
+    font-style:normal;
+    font-size:13px;
+}
+.slidemenu-fixed {
+    background-color:#ffffff;
+}
+.page-title {
+    padding-top:25px;
+    padding-right:30px;
+    padding-bottom:25px;
+    padding-left:30px;
+}
+.wpb_animate_when_almost_visible  {
+    opacity: 1;
+}

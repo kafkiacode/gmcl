@@ -1,0 +1,10 @@
+.resume-info ul {
+    padding-left: 20px;
+}
+.resume-info .info-title a {
+    text-decoration: underline;
+}
+html body .resume-out .resume-info .info-title::after {
+    position: relative;
+    top: 4px;
+}
