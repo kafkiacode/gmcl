@@ -2,7 +2,7 @@ body {
     background-color:#fafafa;
     background-attachment:fixed;
     background-position:center center;
-    background-image:url('http://demo.spyropress.com/themeforest/picard/wp-content/uploads/2017/08/bg.png');
+    background-image:url('../assets/images/bg.png');
 }
 .picard-navigation .main-navigation .menu-main-menu {
     background-color:#ffffff;
