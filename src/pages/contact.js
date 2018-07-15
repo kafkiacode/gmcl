@@ -14,9 +14,9 @@ const ContactPage = () => (
                     src="https://docs.google.com/forms/d/e/1FAIpQLSfExOqdraMAtj0R8qNNWGOskbKF13idvcU6nJQczA_EKcZz3Q/viewform?embedded=true"
                     width="100%"
                     height="1020"
-                    frameborder="0"
-                    marginheight="0"
-                    marginwidth="0"
+                    frameBorder="0"
+                    marginHeight="0"
+                    marginWidth="0"
                     style={{ border: 'none' }}
                 >
                     Loading...

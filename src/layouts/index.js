@@ -7,6 +7,7 @@ import Masthead from '../components/Masthead'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './style.css'
+import './composer.css'
 import './static.css'
 import './style-2.css'
 

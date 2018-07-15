@@ -32,11 +32,11 @@ const ResumePage = () => (
                                                 <h2 className="info-title">Lead full stack developer - <a href="https://bookmarc.io" target="_blank">Bookmarc</a>, Sydney</h2>
                                                 <span className="info-date">August 2014 – December 2017</span>
                                                 <ul>
-                                                    <li>Responsible for all technical aspects of development and maintenance of platform <a href="https://bookmarc.io" target="_blank">bookmarc.io</a></li>
+                                                    <li>In charge of all technical aspects of development and maintenance of platform <a href="https://bookmarc.io" target="_blank">bookmarc.io</a></li>
                                                     <li>Leads a variable tem of in-house and remote back-end and front-end developers, including managing requirements, assessing results and mentoring.</li>
                                                     <li>Implements a new version of the application built in Laravel 5.1.</li>
                                                     <li>Progressive migration of front-end stack to ReactJS.</li>
-                                                    <li>Implementation of back-end ElasticSearch support database.</li>
+                                                    <li>Implementation of back-end ElasticSearch database.</li>
                                                     <li>In charge of system operations in Rackspace and AWS, including managing all the infrastructure in the cloud and related services.</li>
                                                 </ul>
                                             </div>
@@ -61,7 +61,7 @@ const ResumePage = () => (
                                                 <span className="info-date">July 2009 – September 2012</span>
                                                 <ul>
                                                     <li>Professor in Diplomas “Digital Journalism and internet media management”, “Strategic Communication and Leadership in Cultural Projects Management”, “Cultural Journalism and Critics”, “Investigative Journalism”.</li>
-                                                    <li>Teachers in workshops “User Experience (UX) Design in web and other digital platforms” and “Website creation using WordPress”</li>
+                                                    <li>Teacher in workshops “User Experience (UX) Design in web and other digital platforms” and “Website creation using WordPress”</li>
                                                     <li>Professor in courses “Multimedia theory and practice” and “Multimedia Journalism Workshop”. </li>
                                                 </ul>
                                             </div>
@@ -90,15 +90,15 @@ const ResumePage = () => (
                                         </div>
                                         <div className="resume-out">
                                             <div className="resume-info">
-                                                <h2 className="info-title">Skills Assessment: Developer Programmer</h2>
-                                                <span className="info-date">April 2016</span>
-                                                <p>Occupation: Developer Programmer (ANZCO CODE 261312)<br />
-                                                ICS skills assessment by Australian Computer Society</p>
-                                            </div>
-                                            <div className="resume-info">
                                                 <h2 className="info-title">Proficient English</h2>
                                                 <span className="info-date">April 2017 - IELTS</span>
                                                 <p>Writing: 7.5 | Speaking: 7.5 | Reading: 9 | Listening: 9</p>
+                                            </div>
+                                            <div className="resume-info">
+                                                <h2 className="info-title">Australian Skills Assessment: Developer Programmer</h2>
+                                                <span className="info-date">April 2016</span>
+                                                <p>Occupation: Developer Programmer (ANZCO CODE 261312)<br />
+                                                ICS skills assessment by Australian Computer Society</p>
                                             </div>
                                             <div className="resume-info">
                                                 <h2 className="info-title">University of Chile</h2>

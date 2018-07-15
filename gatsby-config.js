@@ -1,6 +1,7 @@
 module.exports = {
+  pathPrefix: `/gmcl`,
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Gabriel Mérida - Full-stack web developer',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -1,4 +1,4 @@
-.resume-info ul {
+.projects-project ul, .resume-info ul {
     padding-left: 20px;
 }
 .resume-info .info-title a {
@@ -7,4 +7,58 @@
 html body .resume-out .resume-info .info-title::after {
     position: relative;
     top: 4px;
+}
+
+@media (max-width: 991px) and (min-width: 321px) {
+    .profile {
+        display: flex;
+    }
+    .profile .profile-image {
+        width: calc(100% / 3);
+        display: flex;
+        align-items: center;
+    }
+    .profile .profile-info {
+        width: calc(100% / 3 * 2);
+    }
+}
+
+.projects-project {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px dashed #ccc;
+}
+.projects-project h3 {
+    font-size: 1.2em;
+}
+.projects-project h3, .projects-project h4 {
+    text-transform: none;
+    margin-bottom: 0.5em;
+}
+.projects-project b {
+    color: #666;
+}
+.projects-project p a {
+    text-decoration: underline;
+}
+
+body #cshero-menu-mobile {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+body #page-wrapper {
+    margin-top: 48px;
+}
+@media screen and (max-width: 767px) {
+ body .menu-main-menu {
+   margin-top: 48px !important;
+   display: block;
+   height: auto;
+   max-height: 0;
+   transition: max-height .5s ease-in;
+   overflow: hidden;
+ }
+ body .menu-main-menu.mobileMenuOn {
+    max-height: 100vh !important;
+ }
 }
