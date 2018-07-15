@@ -31,7 +31,7 @@ const Project = ({
             {!!year && <p><b>Year: </b>{year}</p>}
             {technologies.length > 0 && <p><b>Technologies:</b></p>}
             {technologies.length > 0 && <ul>
-                {technologies.map(t => <li>{t}</li>)}
+                {technologies.map((t, i) => <li key={i}>{t}</li>)}
             </ul>}
         </Col>
     </Row>

@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/gmcl`,
+  // pathPrefix: `/gmcl`,
   siteMetadata: {
     title: 'Gabriel Mérida - Full-stack web developer',
   },
