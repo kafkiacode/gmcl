@@ -35,6 +35,11 @@ class Masthead extends Component {
     console.log('toggleMenu', this.state.mobileMenuOn);
     this.setState({ mobileMenuOn: !this.state.mobileMenuOn });
   }
+  componentDidUpdate(prevProps) {
+    if (prevProps.location.pathname !== this.props.location.pathname) {
+      this.toggleMenu();
+    }
+  }
   render() {
     const { location = {}, data } = this.props;
     const { mobileMenuOn } = this.state;
