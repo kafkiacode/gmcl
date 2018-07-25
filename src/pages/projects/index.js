@@ -18,12 +18,12 @@ const Projects = () => (
             <article className="page type-page status-publish hentry">
                 <Project
                     title="Atomix-js"
-                    comingSoon
+                    linkUrl="https://kafkiacode.github.io/atomix-js"
                     description={
                         <p>
-                        Recreation in ReactJS of classic DOS/Commodore game Atomix
+                        Recreation in ReactJS of classic DOS/Commodore game <a href="https://en.wikipedia.org/wiki/Atomix_(video_game)" target="_blank">Atomix</a>
                         <br />
-                        [Coming soon]
+                        Work in progress - beta version
                         </p>
                     }
                     role="Everything except original design."
