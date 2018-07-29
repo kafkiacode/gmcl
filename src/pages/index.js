@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Page>
     <PageHeader title="About" />
     <PageBody>
-        <main id="main" className="site-main">
+        <div id="main" className="site-main">
             <article className="page type-page status-publish hentry">
                 <div className="entry-content">
                     <div className="vc_row wpb_row vc_row-fluid vc_custom_1522307314558 vc_row-has-fill">
@@ -38,9 +38,9 @@ const IndexPage = () => (
                     <div className="wpb_column vc_column_container vc_col-sm-12">
                         <div className="vc_column-inner ">
                             <div className="wpb_wrapper">
-                                <h4 style={{ textAlign: 'left' }} className="vc_custom_heading vc_custom_1522135929357">
+                                <h3 style={{ textAlign: 'left' }} className="vc_custom_heading vc_custom_1522135929357">
                                     Full stack web developer
-                                </h4>
+                                </h3>
                                 <div className="wpb_text_column wpb_content_element  vc_custom_1522136306311">
                                     <div className="wpb_wrapper">
                                         <p>
@@ -95,7 +95,7 @@ const IndexPage = () => (
                 </div>
             </div>
             </article>
-        </main>
+        </div>
     </PageBody>
   </Page>
 );

@@ -14,17 +14,17 @@ const Projects = () => (
   <Page>
     <PageHeader title="Projects" />
     <PageBody>
-        <main id="main" className="site-main">
+        <div id="main" className="site-main">
             <article className="page type-page status-publish hentry">
                 <Project
                     title="Atomix-js"
                     linkUrl="https://kafkiacode.github.io/atomix-js"
                     description={
-                        <p>
+                        <span>
                         Recreation in ReactJS of classic DOS/Commodore game <a href="https://en.wikipedia.org/wiki/Atomix_(video_game)" target="_blank">Atomix</a>
                         <br />
                         Work in progress - beta version
-                        </p>
+                        </span>
                     }
                     role="Everything except original design."
                     year="2018"
@@ -77,7 +77,7 @@ const Projects = () => (
                     pictureSrc={cineducacionPic}
                 />
             </article>
-        </main>
+        </div>
     </PageBody>
   </Page>
 );

@@ -6,7 +6,7 @@ import { Col } from 'reactstrap';
 const PageHeader = ({
     title,
 }) => (
-    <div id="page-title" className="page-title">
+    <div id="page-title" className="page-title" role="heading" aria-level="2">
         <div id="page-title-text" className="page-title-text text-left ">
             <h2>{title}</h2>
         </div>

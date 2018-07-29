@@ -7,7 +7,7 @@ import { withRouter } from 'react-router';
 const pages = {
   about: {
     path: '/',
-    title: 'About',
+    title: 'About me',
     icon: 'fa-user',
   },
   resume: {
@@ -44,7 +44,7 @@ class Masthead extends Component {
     const { location = {}, data } = this.props;
     const { mobileMenuOn } = this.state;
     return (
-      <header id="masthead" className="site-header">
+      <header id="masthead" className="site-header" role="navigation">
         <div id="cshero-header" className="cshero-main-header affix-top">
           <button
             id="cshero-menu-mobile" className="responsive-menu"
@@ -74,7 +74,7 @@ class Masthead extends Component {
                           )}
                           data-depth="0"
                         >
-                          <Link to={path}><i className={`fa ${icon}`} /> <span className="menu-title">{title}</span></Link>
+                          <Link to={path} title={title}><i className={`fa ${icon}`} aria-hidden /> <span className="menu-title">{title}</span></Link>
                         </li>
                       );
                     })

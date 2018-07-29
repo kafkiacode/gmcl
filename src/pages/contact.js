@@ -8,7 +8,7 @@ const ContactPage = () => (
   <Page>
     <PageHeader title="Contact" />
     <PageBody>
-        <main id="main" className="site-main">
+        <div id="main" className="site-main">
             <article className="page type-page status-publish hentry">
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSfExOqdraMAtj0R8qNNWGOskbKF13idvcU6nJQczA_EKcZz3Q/viewform?embedded=true"
@@ -18,11 +18,12 @@ const ContactPage = () => (
                     marginHeight="0"
                     marginWidth="0"
                     style={{ border: 'none' }}
+                    title="Contact Form"
                 >
                     Loading...
                 </iframe>
             </article>
-        </main>
+        </div>
     </PageBody>
   </Page>
 );

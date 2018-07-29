@@ -8,7 +8,7 @@ const ResumePage = () => (
   <Page>
     <PageHeader title="My resume" />
     <PageBody>
-        <main id="main" className="site-main">
+        <div id="main" className="site-main">
             <article className="page type-page status-publish hentry">
                 <div className="entry-content">
 
@@ -124,7 +124,7 @@ const ResumePage = () => (
 
 
             </article>
-        </main>
+        </div>
     </PageBody>
   </Page>
 );

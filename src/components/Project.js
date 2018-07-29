@@ -13,7 +13,7 @@ const Project = ({
 }) => (
     <Row className="projects-project">
         <Col md="4">
-            <img src={pictureSrc} />
+            <img src={pictureSrc} alt={`Screenshot for project ${title}`} />
         </Col>
         <Col md="8">
             <h3>{title}</h3>

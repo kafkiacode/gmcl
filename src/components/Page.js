@@ -6,9 +6,9 @@ import { Col } from 'reactstrap';
 const Page = ({
     children,
 }) => (
-    <div className="content_wrap">
+    <main className="content_wrap">
         {children}
-    </div>
+    </main>
 );
 
 export default Page;

@@ -5,7 +5,7 @@ const Skillbar = ({
     percentage,
 }) => (
     <li>
-        <h3>{title}</h3>
+        <h4>{title}</h4>
         <div className="progress">
             <div className="percentage" style={{width:`${percentage}%`}}>
             </div>
