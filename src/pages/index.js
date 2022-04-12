@@ -22,7 +22,7 @@ const IndexPage = () => (
                                                 Name: <span>Gabriel Mérida</span>
                                             </li>
                                             <li>
-                                                Based on: <span>Sydney, AU</span>
+                                                Based on: <span>Melbourne, AU</span>
                                             </li>
                                             <li>
                                                 Email: <span><a href="mailto:contacto@gabrielmerida.cl">contacto@gabrielmerida.cl</a></span>

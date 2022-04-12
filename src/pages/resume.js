@@ -22,8 +22,16 @@ const ResumePage = () => (
                                         </div>
                                         <div className="resume-out">
                                             <div className="resume-info">
+                                                <h2 className="info-title">Software development team lead - <a href="https://wwwdomain.com.au" target="_blank">Domain</a>, Melbourne</h2>
+                                                <span className="info-date">May 2021 - Present</span>
+                                            </div>
+                                            <div className="resume-info">
+                                                <h2 className="info-title">Senior front-end engineer - <a href="https://wwwdomain.com.au" target="_blank">Domain</a>, Sydney</h2>
+                                                <span className="info-date">January 2019 - May 2021</span>
+                                            </div>
+                                            <div className="resume-info">
                                                 <h2 className="info-title">Front-end programmer - <a href="https://clueylearning.com" target="_blank">Cluey Learning</a>, Sydney</h2>
-                                                <span className="info-date">February 2018 – Present</span>
+                                                <span className="info-date">February 2018 – January 2019</span>
                                                 <ul>
                                                     <li>Introducing ReactJS and related technologies for front-end development</li>
                                                 </ul>
